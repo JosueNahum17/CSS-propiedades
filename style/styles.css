@@ -1,3 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
 header {
     text-align: center;
     border: 1px solid black;
@@ -20,5 +29,33 @@ nav  a:hover{
 }
 
 .Welcome{
-    background-color: rgb(6, 203, 218);
+    background-color: darkblue;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+main {
+    background-color: #ffffff;
+    color: black;
+}
+
+.courses{
+    padding: 30px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.Welcome h1.courses h2 {
+    color: #0059c0;
+}
+
+
+
+
+.infoCurso {
+    overflow: auto;
+    margin-bottom: 30px;
 }
