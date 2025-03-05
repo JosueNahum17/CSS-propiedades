@@ -1,35 +1,29 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #132E35;
+    
 }
-
-
-
-
-
 header {
     text-align: center;
-    border: 1px solid black;
-    border-radius: 20px ;
-
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px ;
+    background-color: #273c41;
 }
 nav li{
     display: inline;
     font-size: 30px;
     padding-left: 60px;
 }
-
 nav a{
     text-decoration: none;
     color: black;
 }
-
 nav  a:hover{
     text-decoration: underline;
 }
-
 .Welcome{
-    background-color: darkblue;
+    background-color:#45575B;
     padding: 20px;
     text-align: center;
     color: white;
@@ -38,24 +32,51 @@ main {
     background-color: #ffffff;
     color: black;
 }
-
 .courses{
     padding: 30px;
 }
-
+div.courses  {
+ color: black;
+}
 p{
     font-size: 18px;
     line-height: 1.4;
 }
 
 .Welcome h1.courses h2 {
-    color: #0059c0;
+    color: #1984ff;
 }
-
-
-
+.infoCurso img {
+    width: 225px;
+    float: left;
+    margin-right: 30px;
+    
+}
 
 .infoCurso {
     overflow: auto;
     margin-bottom: 30px;
+    background-color: black;
 }
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #A3A39B;
+}
+
+.image {
+    border: 2px solid black;
+    transition: transform 0.6s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+  }
+
+  div.contac {
+    color: black;
+  }
+
+ .sobre{
+    padding: center ;
+  }
